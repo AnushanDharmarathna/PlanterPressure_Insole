@@ -1,0 +1,422 @@
+.maindiv {
+  width: 100%;
+  height: 9vh;
+}
+.maindiv1 {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  background: linear-gradient(to bottom, #73b2f5, #47ffe0);
+  padding-bottom: 5%;
+}
+.maindiv2 {
+  margin-top: 2%;
+  width: 60%;
+  height: 70vh;
+  border-radius: 15px;
+  background-color: #caf0f8;
+}
+.maindiv2Home {
+  display: flex;
+  /* margin-top: 2%; */
+  width: 90%;
+  height: 80vh;
+  /* background-color: #caf0f8; */
+  flex-direction: row;
+}
+.maindiv3Home {
+  width: 90%;
+  height: 80%;
+  background-image: url("./Sprinter.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.maindiv4Home {
+  width: 50%;
+  display: flex;
+}
+
+.font1 {
+  padding-top: 5%;
+  font-size: 40px;
+  color: #03045e;
+  font-weight: 900;
+  letter-spacing: 20px;
+}
+.font1HOME {
+  font-size: 40px;
+  color: #03045e;
+  font-weight: 900;
+  letter-spacing: 20px;
+}
+.maindiv3 {
+  display: flex !important;
+  width: 100%;
+  height: 50vh;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+.button1 {
+  height: 20%;
+  width: 50%;
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 20px;
+  border-style: hidden;
+  color: white;
+  background-color: #0077b6;
+}
+.maindiv4 {
+  display: flex !important;
+  margin-top: 10%;
+  width: 90%;
+  height: 30vh;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10%;
+}
+.maindiv5 {
+  padding-top: 10%;
+  display: flex !important;
+  width: 100%;
+  height: 50vh;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.font2 {
+  width: 40%;
+  font-size: 25px;
+  color: #03045e;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+.maindiv6 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-content: flex-start;
+}
+.input1 {
+  width: 40%;
+  font-size: 15px;
+  color: black;
+  letter-spacing: 2px;
+  margin: 5px;
+}
+.maindiv7 {
+  padding-top: 3%;
+  display: flex !important;
+  width: 90%;
+  height: 50vh;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10%;
+}
+.maindiv8 {
+  padding-top: 5%;
+  display: flex !important;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+.maindiv9 {
+  display: flex;
+  width: 81%;
+  flex-direction: row;
+  background-color: white;
+}
+.imagediv {
+  width: 40%;
+  background-image: url("./foot.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 2%;
+}
+.foot1-reading {
+  display: flex;
+  width: 100%;
+  height: 40%;
+  justify-content: space-evenly;
+  align-items: last baseline;
+  padding-left: 12%;
+  padding-right: 27%;
+}
+.foot1 {
+  display: flex;
+  width: 100%;
+  height: 6%;
+  justify-content: space-evenly;
+  align-items: last baseline;
+  padding-left: 12%;
+  padding-right: 27%;
+}
+.foot2-reading {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  justify-content: space-evenly;
+  align-items: last baseline;
+  padding-left: 20%;
+  padding-right: 35%;
+}
+.foot2 {
+  display: flex;
+  width: 100%;
+  height: 6%;
+  justify-content: space-evenly;
+  align-items: last baseline;
+  padding-left: 20%;
+  padding-right: 35%;
+}
+.foot3-reading {
+  display: flex;
+  width: 100%;
+  height: 4%;
+  justify-content: space-evenly;
+  align-items: last baseline;
+  padding-left: 30%;
+  padding-right: 40%;
+}
+.foot3 {
+  display: flex;
+  width: 100%;
+  height: 7%;
+  justify-content: space-evenly;
+  align-items: last baseline;
+  padding-left: 30%;
+  padding-right: 40%;
+}
+.foot4-reading {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  justify-content: space-evenly;
+  align-items: last baseline;
+  padding-left: 15%;
+  padding-right: 20%;
+}
+.foot4 {
+  display: flex;
+  width: 100%;
+  height: 6%;
+  justify-content: space-evenly;
+  align-items: last baseline;
+  padding-left: 15%;
+  padding-right: 25%;
+}
+.sensor {
+  width: 30px;
+  height: 30px;
+  border-radius: 1000px;
+  background-color: black;
+  color: white;
+}
+.maindive10 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  /* background-color: #caf0f8; */
+  /* margin-left: 5%; */
+}
+.maindiv11 {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  padding-left: 2%;
+  align-items: stretch;
+  margin-top: 3%;
+}
+.maindiv12 {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  padding-left: 2%;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  padding-top: 5%;
+}
+.font3 {
+  font-size: 20px;
+  color: #03045e;
+  font-weight: 900;
+  letter-spacing: 10px;
+}
+.maindiv13 {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-left: 2%;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  padding-top: 5%;
+  background-color: white;
+}
+.button2 {
+  height: 100;
+  width: 20%;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 20px;
+  border-style: hidden;
+  color: white;
+  background-color: #0077b6;
+  margin-left: 5%;
+}
+.sensor-reading {
+  font-size: x-small;
+}
+.linechart1 {
+  height: 60%;
+  width: 80%;
+  border: #03045e;
+  background-color: aqua;
+}
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.Sensordata {
+  display: flex;
+  width: 90%;
+  height: 250px;
+  margin-top: 3%;
+  margin-left: 5%;
+  flex-direction: column;
+  border-radius: 20px;
+  border-radius: 10px;
+}
+.sensordataheading {
+  display: flex;
+  width: 95%;
+  height: 40px;
+  justify-content: flex-start;
+  padding-bottom: 1%;
+}
+.maindiv14 {
+  width: 100%;
+}
+.font4 {
+  display: flex;
+  font-size: 20px;
+  color: black;
+  font-weight: 800;
+  letter-spacing: 5px;
+  padding-left: 5%;
+}
+.sensordatachart {
+  display: flex;
+  width: 55%;
+  height: 210px;
+  background-color: white;
+  padding-top: 1%;
+  border-radius: 10px !important;
+}
+.SensoreDataOverview {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  padding-top: 1%;
+  border-radius: 10px;
+  flex-direction: row;
+}
+.sensordatachart2 {
+  display: flex;
+  width: 40%;
+  height: 210px;
+  border-radius: 10px;
+  padding-left: 5%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sensordatachart3 {
+  display: flex;
+  width: 70%;
+  height: 96px;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sensordatachart4 {
+  display: flex;
+  width: 45%;
+  height: 90%;
+  border-radius: 10px;
+  background-color: azure;
+  flex-direction: column;
+}
+.font5 {
+  display: flex;
+  font-size: 10px;
+  color: black;
+  font-weight: 500;
+  padding-left: 5%;
+  padding-top: 5%;
+  margin-bottom: 0;
+}
+.font6 {
+  font-size: 30px;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 0;
+  color: #000129;
+}
+.foottype {
+  display: flex;
+  width: 100%;
+  height: 250px !important;
+  justify-content: space-evenly;
+  align-items: last baseline;
+  padding-left: 20%;
+  padding-right: 35%;
+}
+.fontHeading {
+  font-size: 20px;
+  color: #03045e;
+  font-weight: 900;
+  letter-spacing: 10px;
+  background-color: #73b2f5 !important;
+  color: BLACK;
+  margin-bottom: 0;
+}
+.Downloaddataex {
+  height: 30px;
+  margin-top: 1%;
+  background-color: green;
+  color: white;
+  margin-right: 3%;
+}
+.Downloaddatapdf {
+  height: 30px;
+  margin-top: 1%;
+  background-color: red;
+  color: white;
+  margin-left: 3%;
+}

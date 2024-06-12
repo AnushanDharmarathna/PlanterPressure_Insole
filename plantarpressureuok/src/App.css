@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar {
+  width: 100%;
+  padding: 1vh; /* Adjust the padding as needed */
+}
+
+.navbar-brand {
+  padding-top: 0.5rem; /* Adjust the top padding of the brand */
+  padding-bottom: 0.5rem; /* Adjust the bottom padding of the brand */
+  font-size: 2rem; /* Adjust the font size of the brand */
+  font-family: "Arial", sans-serif; /* Change the font family */
+  font-size: 30px; /* Change the font size */
+  font-weight: bold; /* Change the font weight */
+  color: #fff !important; /* Change the font color */
+  font-weight: 900;
+  letter-spacing: 10px;
+}
+
+.navbar-nav .nav-link {
+  font-family: "Arial", sans-serif; /* Change the font family */
+  font-size: 18px; /* Change the font size */
+  font-weight: normal; /* Change the font weight */
+  color: #fff; /* Change the font color */
+  font-weight: 900;
+}
+.navbar-header {
+  height: 15vh;
+  padding-top: 2vh;
+  align-items: center;
+  justify-content: center;
+}
